@@ -6,11 +6,13 @@ This is a command line script that takes in the location/name of the csv to impo
 CSV needs to be structured this way with 2 columns and headers
 
 package	cve
+
 openssl	CVE-2016-0702
 
 Output looks like
 
 Package	CVE	Priority	Upstream	Version	URL
+
 openssl	CVE-2016-0702	PriorityLow	needs-triage	needed	https://people.canonical.com/~ubuntu-security/cve/2016/CVE-2016-0702.html
 
 
