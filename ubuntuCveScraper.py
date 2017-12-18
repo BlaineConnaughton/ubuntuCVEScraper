@@ -50,7 +50,7 @@ def scrape_ubuntu(cve , os_version , vulnpackage):
 def main():
     
     if len(sys.argv) != 3:
-        print "Usage: vulnUpdater.py example.csv osVersion"
+        print "Usage: ubuntuCveScraper.py example.csv osVersion"
         return
 
     filename = sys.argv[1]
