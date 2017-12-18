@@ -77,7 +77,6 @@ def main():
         i = 0.00
         print "Starting to write csv: " + filename
 
-        #domain name list we created from the previous CSV so we didn't have 2 csv objects open and writing
         for CVE in CVElist:
             i = i + 1
             package = CVE[0]
