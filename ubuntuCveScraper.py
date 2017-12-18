@@ -7,8 +7,6 @@ try:
 except ImportError:
     from bs4 import BeautifulSoup
 
-#This script should be run from the same location
-
 CVElist = []
 
 def scrape_ubuntu(cve , os_version , vulnpackage):
